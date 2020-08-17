@@ -1,0 +1,44 @@
+Transaction
+===========
+:Author:    Claudio E. de Oliveira
+:Email:     claudio.eduardo@zup.com.br
+:Revision:  1.0.0
+
+== Transaction File Definition
+This file intents to be a design contract to write transactions in .txt file.
+The number of characters should be following the description below:
+
+.File Description
+|===
+|Position |Column Description | Type
+
+|*000..010*
+|Transaction Type
+|string
+
+|*011..020*
+|Transaction SubType
+|string
+
+|*021..050*
+|Account that did the transaction
+|string
+
+|*051..080*
+|Account that will receive the value
+|string
+
+|*081..100*
+|Transaction value
+|double
+
+|*101..130*
+|Time of transaction happen
+|string
+
+|*131..150*
+|Device type (pos, smartphone, laptop)
+|string
+
+
+|===
