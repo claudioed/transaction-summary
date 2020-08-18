@@ -28,17 +28,16 @@ The number of characters should be following the description below:
 |Account that will receive the value
 |string
 
-|*081..100*
-|Transaction value
+|*081..105*
+|Time of transaction happen
 |double
 
-|*101..130*
-|Time of transaction happen
-|string
-
-|*131..150*
+|*106..136*
 |Device type (pos, smartphone, laptop)
 |string
 
+|*136..*
+|
+|string
 
 |===
